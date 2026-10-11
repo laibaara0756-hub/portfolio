@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --color-charcoal: #1c1c1c;
+  --color-charcoal-light: #2e2e2e;
+  --color-charcoal-card: #262626;
+  --color-gold: #c9a227;
+  --color-gold-light: #dfb535;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: #c9a227;
+  color: #1c1c1c;
+}
